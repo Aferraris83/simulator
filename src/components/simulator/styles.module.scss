@@ -1,0 +1,28 @@
+@import '../../styles.module.scss';
+
+.simulator {
+  background-color: $veniceBlue;
+  height: 570px;
+  width: 570px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: linear-gradient(to bottom, $midnightBlue, $veniceBlue);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  color: $white;
+  font-size: 30px;
+  font-weight: 700;
+}

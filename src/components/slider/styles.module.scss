@@ -1,0 +1,50 @@
+@import '../../styles.module.scss';
+
+.slider {
+  width: 85%;
+}
+
+.title {
+  color: $white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  color: $white;
+  font-size: 18px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputContainer {
+  height: 25px;
+  background: $transparent;
+  color: $white;
+  padding: 10px;
+  font-size: 25px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+}
+
+.input {
+  border: none;
+  background-color: $transparent;
+  color: $white;
+  padding: 10px;
+  font-size: 25px;
+  width: 100px;
+
+  &:focus {
+    outline: none;
+  }
+}
